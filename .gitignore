@@ -1,0 +1,10 @@
+# raw datasets are large and redistributed by their owners; see data/README.md
+data/*
+!data/README.md
+NIDS/
+nids_work/
+results_final/
+*.zip
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

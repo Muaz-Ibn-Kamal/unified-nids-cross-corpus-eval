@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper below."
+title: "Unified Multiclass and Cross-Corpus Evaluation of UNSW-NB15 and CICIDS-2017"
+type: software
+authors:
+  - family-names: "Ibn Kamal"
+    given-names: "Muaz"
+license: MIT
+repository-code: "https://github.com/Muaz-Ibn-Kamal/unified-nids-cross-corpus-eval"
+keywords: [intrusion detection, multiclass classification, cross-dataset evaluation, dataset shift, UNSW-NB15, CICIDS-2017]
+preferred-citation:
+  type: conference-paper
+  title: "Unified Multiclass and Cross-Corpus Evaluation of UNSW-NB15 and CICIDS-2017"
+  authors:
+    - family-names: "Ibn Kamal"
+      given-names: "Muaz"
+  conference:
+    name: "2027 7th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT 2027)"
+  status: submitted

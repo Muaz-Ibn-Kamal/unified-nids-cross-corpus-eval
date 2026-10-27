@@ -1,0 +1,11 @@
+attack_cat,Records,%
+Normal,93000,36.09
+Generic,58871,22.85
+Exploits,44525,17.28
+Fuzzers,24246,9.41
+DoS,16353,6.35
+Reconnaissance,13987,5.43
+Analysis,2677,1.04
+Backdoors,2329,0.9
+Shellcode,1511,0.59
+Worms,174,0.07

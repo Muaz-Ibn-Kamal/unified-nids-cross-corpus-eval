@@ -1,0 +1,392 @@
+section,quantity,paper,notebook,status,category
+3.1,raw UNSW-NB15 records,2540047,2540047.0,MATCH,MATCH
+3.1,Normal records in the raw files,2218764,2218764.0,MATCH,MATCH
+3.1,input features,43,43.0,MATCH,MATCH
+Table 1,UNSW-NB15 Normal records,93000,93000.0,MATCH,MATCH
+Table 1,UNSW-NB15 Normal %,36.09,36.0923,MATCH,MATCH
+Table 1,UNSW-NB15 Generic records,58871,58871.0,MATCH,MATCH
+Table 1,UNSW-NB15 Generic %,22.85,22.8472,MATCH,MATCH
+Table 1,UNSW-NB15 Exploits records,44525,44525.0,MATCH,MATCH
+Table 1,UNSW-NB15 Exploits %,17.28,17.2797,MATCH,MATCH
+Table 1,UNSW-NB15 Fuzzers records,24246,24246.0,MATCH,MATCH
+Table 1,UNSW-NB15 Fuzzers %,9.41,9.4096,MATCH,MATCH
+Table 1,UNSW-NB15 DoS records,16353,16353.0,MATCH,MATCH
+Table 1,UNSW-NB15 DoS %,6.35,6.3464,MATCH,MATCH
+Table 1,UNSW-NB15 Reconnaissance records,13987,13987.0,MATCH,MATCH
+Table 1,UNSW-NB15 Reconnaissance %,5.43,5.4282,MATCH,MATCH
+Table 1,UNSW-NB15 Analysis records,2677,2677.0,MATCH,MATCH
+Table 1,UNSW-NB15 Analysis %,1.04,1.0389,MATCH,MATCH
+Table 1,UNSW-NB15 Backdoors records,2329,2329.0,MATCH,MATCH
+Table 1,UNSW-NB15 Backdoors %,0.9,0.9039,MATCH,MATCH
+Table 1,UNSW-NB15 Shellcode records,1511,1511.0,MATCH,MATCH
+Table 1,UNSW-NB15 Shellcode %,0.59,0.5864,MATCH,MATCH
+Table 1,UNSW-NB15 Worms records,174,174.0,MATCH,MATCH
+Table 1,UNSW-NB15 Worms %,0.07,0.0675,MATCH,MATCH
+Table 1,UNSW-NB15 pool size,257673,257673.0,MATCH,MATCH
+2.1,UNSW-NB15 imbalance ratio (x:1),534,534.0,MATCH,MATCH
+3.2,CICIDS-2017 rows loaded,2830743,27418.0,"DIFFERS (-2,803,325)",DIFFERS
+3.2,CICIDS-2017 CSV files,8,3.0,DIFFERS (-5),DIFFERS
+3.2,CICIDS-2017 features after dropping the duplicated column,77,13.0,DIFFERS (-64),DIFFERS
+3.2,rows removed for Inf/NaN,2867,4.0,"DIFFERS (-2,863)",DIFFERS
+3.2,exact duplicates removed,307078,48.0,"DIFFERS (-307,030)",DIFFERS
+3.2,duplicates as % of the rest,10.86,0.1751,DIFFERS (-10.685),DIFFERS
+3.2,Heartbleed records dropped,11,3.0,DIFFERS (-8),DIFFERS
+3.2,Infiltration records dropped,36,5.0,DIFFERS (-31),DIFFERS
+Table 1,CICIDS-2017 BENIGN records,2095057,19998.0,"DIFFERS (-2,075,059)",DIFFERS
+Table 1,CICIDS-2017 BENIGN %,83.11,73.0974,DIFFERS (-10.013),DIFFERS
+Table 1,CICIDS-2017 DoS records,193745,3000.0,"DIFFERS (-190,745)",DIFFERS
+Table 1,CICIDS-2017 DoS %,7.69,10.9657,DIFFERS (+3.276),DIFFERS
+Table 1,CICIDS-2017 DDoS records,128014,2000.0,"DIFFERS (-126,014)",DIFFERS
+Table 1,CICIDS-2017 DDoS %,5.08,7.3105,DIFFERS (+2.230),DIFFERS
+Table 1,CICIDS-2017 Port Scan records,90694,1500.0,"DIFFERS (-89,194)",DIFFERS
+Table 1,CICIDS-2017 Port Scan %,3.6,5.4829,DIFFERS (+1.883),DIFFERS
+Table 1,CICIDS-2017 Brute Force records,9150,350.0,"DIFFERS (-8,800)",DIFFERS
+Table 1,CICIDS-2017 Brute Force %,0.36,1.2793,DIFFERS (+0.919),DIFFERS
+Table 1,CICIDS-2017 Web Attack records,2143,210.0,"DIFFERS (-1,933)",DIFFERS
+Table 1,CICIDS-2017 Web Attack %,0.09,0.7676,DIFFERS (+0.678),DIFFERS
+Table 1,CICIDS-2017 Bot records,1948,300.0,"DIFFERS (-1,648)",DIFFERS
+Table 1,CICIDS-2017 Bot %,0.08,1.0966,DIFFERS (+1.017),DIFFERS
+Table 1,CICIDS-2017 records after cleaning,2520751,27358.0,"DIFFERS (-2,493,393)",DIFFERS
+3.2,CICIDS-2017 imbalance ratio (x:1),1075,95.0,DIFFERS (-980),DIFFERS
+3.3,UNSW-NB15 Normal records lost at alignment,7,7.0,MATCH,MATCH
+3.3,merged pool size,4760884,2278224.0,"DIFFERS (-2,482,660)",DIFFERS
+3.3,merged Normal total,4313814,2238755.0,"DIFFERS (-2,075,059)",DIFFERS
+3.3,merged Normal from UNSW-NB15,2218757,2218757.0,MATCH,MATCH
+3.3,merged Normal from CICIDS-2017,2095057,19998.0,"DIFFERS (-2,075,059)",DIFFERS
+3.3,merged DoS total,338112,21353.0,"DIFFERS (-316,759)",DIFFERS
+3.3,merged DoS from UNSW-NB15,16353,16353.0,MATCH,MATCH
+3.3,merged DoS from CICIDS-2017,321759,5000.0,"DIFFERS (-316,759)",DIFFERS
+3.3,merged Reconnaissance total,104681,15487.0,"DIFFERS (-89,194)",DIFFERS
+3.3,merged Reconnaissance from UNSW-NB15,13987,13987.0,MATCH,MATCH
+3.3,merged Reconnaissance from CICIDS-2017,90694,1500.0,"DIFFERS (-89,194)",DIFFERS
+3.3,merged Backdoor total,4277,2629.0,"DIFFERS (-1,648)",DIFFERS
+3.3,merged Backdoor from UNSW-NB15,2329,2329.0,MATCH,MATCH
+3.3,merged Backdoor from CICIDS-2017,1948,300.0,"DIFFERS (-1,648)",DIFFERS
+Table 2,RF none Accuracy mean,87.53,87.5315,MATCH,MATCH
+Table 2,RF none Accuracy std,0.12,0.1163,MATCH,MATCH
+Table 2,RF none Macro precision mean,77.15,77.1463,MATCH,MATCH
+Table 2,RF none Macro precision std,2.26,2.2616,MATCH,MATCH
+Table 2,RF none Macro recall mean,62.37,62.3684,MATCH,MATCH
+Table 2,RF none Macro recall std,1.17,1.1667,MATCH,MATCH
+Table 2,RF none Macro F1 mean,65.05,65.0524,MATCH,MATCH
+Table 2,RF none Macro F1 std,1.45,1.4497,MATCH,MATCH
+Table 2,RF none Macro AUC-PR mean,68.9,68.8985,MATCH,MATCH
+Table 2,RF none Macro AUC-PR std,1.36,1.3573,MATCH,MATCH
+Table 2,RF smote Accuracy mean,87.45,87.4511,MATCH,MATCH
+Table 2,RF smote Accuracy std,0.12,0.1227,MATCH,MATCH
+Table 2,RF smote Macro precision mean,70.45,70.4517,MATCH,MATCH
+Table 2,RF smote Macro precision std,1.2,1.201,MATCH,MATCH
+Table 2,RF smote Macro recall mean,65.4,65.4042,MATCH,MATCH
+Table 2,RF smote Macro recall std,1.35,1.3513,MATCH,MATCH
+Table 2,RF smote Macro F1 mean,66.14,66.1438,MATCH,MATCH
+Table 2,RF smote Macro F1 std,1.16,1.1562,MATCH,MATCH
+Table 2,RF smote Macro AUC-PR mean,67.45,67.4533,MATCH,MATCH
+Table 2,RF smote Macro AUC-PR std,1.17,1.1723,MATCH,MATCH
+Table 2,RF adasyn Accuracy mean,87.47,87.4678,MATCH,MATCH
+Table 2,RF adasyn Accuracy std,0.14,0.1369,MATCH,MATCH
+Table 2,RF adasyn Macro precision mean,71.04,71.0378,MATCH,MATCH
+Table 2,RF adasyn Macro precision std,1.19,1.19,MATCH,MATCH
+Table 2,RF adasyn Macro recall mean,65.9,65.903,MATCH,MATCH
+Table 2,RF adasyn Macro recall std,1.37,1.369,MATCH,MATCH
+Table 2,RF adasyn Macro F1 mean,66.34,66.3401,MATCH,MATCH
+Table 2,RF adasyn Macro F1 std,1.05,1.0539,MATCH,MATCH
+Table 2,RF adasyn Macro AUC-PR mean,67.62,67.6232,MATCH,MATCH
+Table 2,RF adasyn Macro AUC-PR std,1.24,1.2389,MATCH,MATCH
+Table 2,XGB none Accuracy mean,88.38,88.3798,MATCH,MATCH
+Table 2,XGB none Accuracy std,0.12,0.1245,MATCH,MATCH
+Table 2,XGB none Macro precision mean,81.15,81.1482,MATCH,MATCH
+Table 2,XGB none Macro precision std,0.94,0.9407,MATCH,MATCH
+Table 2,XGB none Macro recall mean,64.82,64.8168,MATCH,MATCH
+Table 2,XGB none Macro recall std,1.5,1.5006,MATCH,MATCH
+Table 2,XGB none Macro F1 mean,67.05,67.0511,MATCH,MATCH
+Table 2,XGB none Macro F1 std,1.24,1.2431,MATCH,MATCH
+Table 2,XGB none Macro AUC-PR mean,70.95,70.951,MATCH,MATCH
+Table 2,XGB none Macro AUC-PR std,0.81,0.8075,MATCH,MATCH
+Table 2,XGB smote Accuracy mean,88.28,88.2832,MATCH,MATCH
+Table 2,XGB smote Accuracy std,0.1,0.101,MATCH,MATCH
+Table 2,XGB smote Macro precision mean,71.64,71.6364,MATCH,MATCH
+Table 2,XGB smote Macro precision std,1.31,1.3102,MATCH,MATCH
+Table 2,XGB smote Macro recall mean,64.89,64.887,MATCH,MATCH
+Table 2,XGB smote Macro recall std,1.67,1.6684,MATCH,MATCH
+Table 2,XGB smote Macro F1 mean,66.04,66.0443,MATCH,MATCH
+Table 2,XGB smote Macro F1 std,1.43,1.4332,MATCH,MATCH
+Table 2,XGB smote Macro AUC-PR mean,70.63,70.6269,MATCH,MATCH
+Table 2,XGB smote Macro AUC-PR std,1.26,1.2561,MATCH,MATCH
+Table 2,XGB adasyn Accuracy mean,88.27,88.2739,MATCH,MATCH
+Table 2,XGB adasyn Accuracy std,0.09,0.0862,MATCH,MATCH
+Table 2,XGB adasyn Macro precision mean,72.64,72.6441,MATCH,MATCH
+Table 2,XGB adasyn Macro precision std,1.47,1.4667,MATCH,MATCH
+Table 2,XGB adasyn Macro recall mean,64.94,64.9414,MATCH,MATCH
+Table 2,XGB adasyn Macro recall std,1.06,1.0646,MATCH,MATCH
+Table 2,XGB adasyn Macro F1 mean,66.16,66.1638,MATCH,MATCH
+Table 2,XGB adasyn Macro F1 std,1.08,1.0786,MATCH,MATCH
+Table 2,XGB adasyn Macro AUC-PR mean,70.79,70.7862,MATCH,MATCH
+Table 2,XGB adasyn Macro AUC-PR std,1.29,1.289,MATCH,MATCH
+Table 2,LGB none Accuracy mean,85.81,85.8115,MATCH,MATCH
+Table 2,LGB none Accuracy std,1.01,1.0057,MATCH,MATCH
+Table 2,LGB none Macro precision mean,63.16,63.1562,MATCH,MATCH
+Table 2,LGB none Macro precision std,2.38,2.3797,MATCH,MATCH
+Table 2,LGB none Macro recall mean,58.75,58.7476,MATCH,MATCH
+Table 2,LGB none Macro recall std,0.86,0.8556,MATCH,MATCH
+Table 2,LGB none Macro F1 mean,58.48,58.4823,MATCH,MATCH
+Table 2,LGB none Macro F1 std,0.43,0.4252,MATCH,MATCH
+Table 2,LGB none Macro AUC-PR mean,54.45,54.454,MATCH,MATCH
+Table 2,LGB none Macro AUC-PR std,2.09,2.092,MATCH,MATCH
+Table 2,LGB smote Accuracy mean,88.51,88.506,MATCH,MATCH
+Table 2,LGB smote Accuracy std,0.08,0.0829,MATCH,MATCH
+Table 2,LGB smote Macro precision mean,73.99,73.9935,MATCH,MATCH
+Table 2,LGB smote Macro precision std,1.56,1.5627,MATCH,MATCH
+Table 2,LGB smote Macro recall mean,65.38,65.3826,MATCH,MATCH
+Table 2,LGB smote Macro recall std,1.38,1.3847,MATCH,MATCH
+Table 2,LGB smote Macro F1 mean,66.37,66.3704,MATCH,MATCH
+Table 2,LGB smote Macro F1 std,1.34,1.3443,MATCH,MATCH
+Table 2,LGB smote Macro AUC-PR mean,71.69,71.6886,MATCH,MATCH
+Table 2,LGB smote Macro AUC-PR std,1.72,1.7166,MATCH,MATCH
+Table 2,LGB adasyn Accuracy mean,88.48,88.4827,MATCH,MATCH
+Table 2,LGB adasyn Accuracy std,0.09,0.0945,MATCH,MATCH
+Table 2,LGB adasyn Macro precision mean,75.45,75.4534,MATCH,MATCH
+Table 2,LGB adasyn Macro precision std,1.95,1.9458,MATCH,MATCH
+Table 2,LGB adasyn Macro recall mean,65.39,65.3949,MATCH,MATCH
+Table 2,LGB adasyn Macro recall std,1.28,1.2846,MATCH,MATCH
+Table 2,LGB adasyn Macro F1 mean,65.91,65.9119,MATCH,MATCH
+Table 2,LGB adasyn Macro F1 std,1.29,1.2903,MATCH,MATCH
+Table 2,LGB adasyn Macro AUC-PR mean,70.64,70.6401,MATCH,MATCH
+Table 2,LGB adasyn Macro AUC-PR std,2.16,2.1577,MATCH,MATCH
+Table 2,TabNet none Accuracy mean,85.85,86.8927,re-run (+1.04),re-run
+Table 2,TabNet none Accuracy std,1.87,0.201,re-run (-1.67),re-run
+Table 2,TabNet none Macro precision mean,60.11,61.9033,re-run (+1.79),re-run
+Table 2,TabNet none Macro precision std,3.26,2.045,re-run (-1.21),re-run
+Table 2,TabNet none Macro recall mean,53.74,54.612,re-run (+0.87),re-run
+Table 2,TabNet none Macro recall std,3.6,0.5661,re-run (-3.03),re-run
+Table 2,TabNet none Macro F1 mean,52.82,54.0571,re-run (+1.24),re-run
+Table 2,TabNet none Macro F1 std,4.08,0.6478,re-run (-3.43),re-run
+Table 2,TabNet none Macro AUC-PR mean,60.73,62.9596,re-run (+2.23),re-run
+Table 2,TabNet none Macro AUC-PR std,2.67,0.7251,re-run (-1.94),re-run
+Table 2,FT-Transformer none Accuracy mean,81.54,82.1541,re-run (+0.61),re-run
+Table 2,FT-Transformer none Accuracy std,0.47,0.8943,re-run (+0.42),re-run
+Table 2,FT-Transformer none Macro precision mean,37.8,42.3132,re-run (+4.51),re-run
+Table 2,FT-Transformer none Macro precision std,5.07,4.4546,re-run (-0.62),re-run
+Table 2,FT-Transformer none Macro recall mean,38.25,39.4729,re-run (+1.22),re-run
+Table 2,FT-Transformer none Macro recall std,1.76,2.3672,re-run (+0.61),re-run
+Table 2,FT-Transformer none Macro F1 mean,35.6,37.4822,re-run (+1.88),re-run
+Table 2,FT-Transformer none Macro F1 std,3.25,3.6491,re-run (+0.40),re-run
+Table 2,FT-Transformer none Macro AUC-PR mean,47.27,46.217,re-run (-1.05),re-run
+Table 2,FT-Transformer none Macro AUC-PR std,1.93,2.594,re-run (+0.66),re-run
+5.1,lowest tree accuracy (paper: every configuration clears 85.8%),85.81,85.8115,MATCH,MATCH
+5.1,highest tree macro F1 (paper: none reaches 67.1%),67.05,67.0511,MATCH,MATCH
+5.2,LightGBM + SMOTE macro AUC-PR gain,17.2,17.235,MATCH,MATCH
+5.2,LightGBM + ADASYN macro AUC-PR gain,16.2,16.186,MATCH,MATCH
+5.2,RF + SMOTE macro recall gain,3.0,3.036,MATCH,MATCH
+5.2,RF + ADASYN macro recall gain,3.5,3.535,MATCH,MATCH
+5.2,RF + SMOTE macro precision change,-6.7,-6.695,MATCH,MATCH
+5.2,RF + ADASYN macro precision change,-6.1,-6.109,MATCH,MATCH
+5.2,RF + SMOTE macro AUC-PR change,-1.4,-1.445,MATCH,MATCH
+5.2,RF + ADASYN macro AUC-PR change,-1.3,-1.275,MATCH,MATCH
+5.2,XGB + SMOTE macro precision change,-9.5,-9.512,MATCH,MATCH
+5.2,XGB + ADASYN macro precision change,-8.5,-8.504,MATCH,MATCH
+5.2,"Worms recall, RF, none",31.08,31.0756,MATCH,MATCH
+5.2,"Worms recall, RF, SMOTE",57.45,57.4454,MATCH,MATCH
+5.2,"Worms recall, LGB, none",27.61,27.6134,MATCH,MATCH
+5.2,"Worms recall, LGB, SMOTE",60.4,60.4034,MATCH,MATCH
+5.3,"attractor slots, all rows",90,90.0,MATCH,MATCH
+5.3,slots won by Exploits,72,72.0,MATCH,MATCH
+5.3,slots won by DoS,9,9.0,MATCH,MATCH
+5.3,slots won by Fuzzers,9,9.0,MATCH,MATCH
+5.3,classes that win any slot,3,3.0,MATCH,MATCH
+5.3,slots with recall below 90%,60,60.0,MATCH,MATCH
+5.3,"of those, won by Exploits",56,56.0,MATCH,MATCH
+5.3,"of those, won by DoS",4,4.0,MATCH,MATCH
+5.3/Table 3,XGBoost (none) recall Analysis,16.85,16.8477,MATCH,MATCH
+5.3/Table 3,XGBoost (none) recall Backdoors,10.69,10.6916,MATCH,MATCH
+5.3/Table 3,XGBoost (none) recall DoS,17.9,17.8986,MATCH,MATCH
+5.3/Table 3,XGBoost (none) recall Exploits,91.0,90.9983,MATCH,MATCH
+5.3/Table 3,XGBoost (none) recall Reconnaissance,77.84,77.8438,MATCH,MATCH
+5.3/Table 3,XGBoost (none) recall Normal,98.62,98.6215,MATCH,MATCH
+5.4,distinct 43-feature vectors,167339,167339.0,MATCH,MATCH
+5.4,conflicted feature vectors,2023,2023.0,MATCH,MATCH
+5.4,records inside them,38809,38809.0,MATCH,MATCH
+5.4,their share of the pool %,15.06,15.0613,MATCH,MATCH
+5.4,maximum achievable accuracy %,91.58,91.5758,MATCH,MATCH
+5.4,ceiling minus XGBoost accuracy (paper: 3.2),3.2,3.1959,MATCH,MATCH
+Table 3,ceiling Backdoors,15.67,15.67,MATCH,MATCH
+Table 3,ceiling Analysis,23.23,23.23,MATCH,MATCH
+Table 3,ceiling DoS,57.93,57.93,MATCH,MATCH
+Table 3,ceiling Reconnaissance,84.14,84.14,MATCH,MATCH
+Table 3,ceiling Exploits,88.25,88.25,MATCH,MATCH
+Table 3,ceiling Normal,100.0,100.0,MATCH,MATCH
+Table 3,ceiling Generic,99.02,99.02,MATCH,MATCH
+Table 3,ceiling Fuzzers,88.57,88.57,MATCH,MATCH
+Table 3,ceiling Shellcode,100.0,100.0,MATCH,MATCH
+Table 3,ceiling Worms,91.38,91.38,MATCH,MATCH
+Table 3,headroom Backdoors,4.98,4.98,MATCH,MATCH
+Table 3,headroom Analysis,6.38,6.38,MATCH,MATCH
+Table 3,headroom DoS,40.03,40.03,MATCH,MATCH
+Table 3,headroom Reconnaissance,6.3,6.3,MATCH,MATCH
+Table 3,headroom Exploits,-2.75,-2.75,MATCH,MATCH
+Table 3,headroom Normal,1.38,1.38,MATCH,MATCH
+5.4,XGB DoS recall after dropping Exploits,94.66,94.6554,MATCH,MATCH
+5.4,XGB Analysis recall gain after dropping Exploits,3.03,3.0258,MATCH,MATCH
+5.4,XGB Backdoors recall gain after dropping Exploits,0.94,0.9446,MATCH,MATCH
+5.4,GA: features selected,18,18.0,MATCH,MATCH
+5.4,GA: Analysis recall change,0.34,0.337,MATCH,MATCH
+5.4,GA: Backdoors recall change,0.21,0.215,MATCH,MATCH
+5.4,GA: DoS recall change,-3.0,-3.003,MATCH,MATCH
+5.4,GA: DoS paired p,0.007,0.007,MATCH,MATCH
+Table 4,balanced split Random Forest accuracy,99.32,49.2063,DIFFERS (-50.114),DIFFERS
+Table 4,balanced split Random Forest precision,99.32,47.4003,DIFFERS (-51.920),DIFFERS
+Table 4,balanced split Random Forest recall,99.32,49.2063,DIFFERS (-50.114),DIFFERS
+Table 4,balanced split Random Forest f1,99.32,47.2483,DIFFERS (-52.072),DIFFERS
+Table 4,balanced split XGBoost accuracy,99.68,43.9909,DIFFERS (-55.689),DIFFERS
+Table 4,balanced split XGBoost precision,99.68,42.5021,DIFFERS (-57.178),DIFFERS
+Table 4,balanced split XGBoost recall,99.68,43.9909,DIFFERS (-55.689),DIFFERS
+Table 4,balanced split XGBoost f1,99.68,42.5429,DIFFERS (-57.137),DIFFERS
+Table 4,balanced split LightGBM accuracy,99.71,40.3628,DIFFERS (-59.347),DIFFERS
+Table 4,balanced split LightGBM precision,99.71,39.4435,DIFFERS (-60.266),DIFFERS
+Table 4,balanced split LightGBM recall,99.71,40.3628,DIFFERS (-59.347),DIFFERS
+Table 4,balanced split LightGBM f1,99.71,39.5541,DIFFERS (-60.156),DIFFERS
+6.1,records per class in the balanced split,1948,210.0,"DIFFERS (-1,738)",DIFFERS
+6.2,capped CV pool size,333241,27358.0,"DIFFERS (-305,883)",DIFFERS
+6.2,capped pool ratio (x:1),41,95.0,DIFFERS (+54),DIFFERS
+Table 4,CV XGBoost+SMOTE Accuracy mean,99.93,85.1195,DIFFERS (-14.810),DIFFERS
+Table 4,CV XGBoost+SMOTE Accuracy std,0.01,0.3985,"differs +0.39, within run-to-run range",within run-to-run range
+Table 4,CV XGBoost+SMOTE Macro precision mean,99.44,52.5875,DIFFERS (-46.852),DIFFERS
+Table 4,CV XGBoost+SMOTE Macro precision std,0.13,2.6387,DIFFERS (+2.509),DIFFERS
+Table 4,CV XGBoost+SMOTE Macro recall mean,99.82,49.4053,DIFFERS (-50.415),DIFFERS
+Table 4,CV XGBoost+SMOTE Macro recall std,0.07,2.5201,DIFFERS (+2.450),DIFFERS
+Table 4,CV XGBoost+SMOTE Macro F1 mean,99.63,50.7469,DIFFERS (-48.883),DIFFERS
+Table 4,CV XGBoost+SMOTE Macro F1 std,0.08,2.5241,DIFFERS (+2.444),DIFFERS
+Table 4,CV XGBoost+SMOTE Macro AUC-PR mean,99.93,47.6406,DIFFERS (-52.289),DIFFERS
+Table 4,CV XGBoost+SMOTE Macro AUC-PR std,0.03,2.5569,DIFFERS (+2.527),DIFFERS
+6.2,CV SMOTE recall BENIGN,99.83,99.3249,"differs -0.51, within run-to-run range",within run-to-run range
+6.2,CV SMOTE recall Bot,99.64,14.3333,DIFFERS (-85.307),DIFFERS
+6.2,CV SMOTE recall Brute Force,99.97,36.8571,DIFFERS (-63.113),DIFFERS
+6.2,CV SMOTE recall DDoS,99.99,43.05,DIFFERS (-56.940),DIFFERS
+6.2,CV SMOTE recall DoS,99.96,51.7667,DIFFERS (-48.193),DIFFERS
+6.2,CV SMOTE recall Port Scan,99.95,48.6,DIFFERS (-51.350),DIFFERS
+6.2,CV SMOTE recall Web Attack,99.39,51.9048,DIFFERS (-47.485),DIFFERS
+new,CV XGBoost without resampling Accuracy mean,,87.8463,not in paper,not in paper
+new,CV XGBoost without resampling Macro precision mean,,62.0805,not in paper,not in paper
+new,CV XGBoost without resampling Macro recall mean,,50.9735,not in paper,not in paper
+new,CV XGBoost without resampling Macro F1 mean,,54.9851,not in paper,not in paper
+new,CV XGBoost without resampling Macro AUC-PR mean,,52.4455,not in paper,not in paper
+Table 5,merged none Accuracy,99.21,96.5944,DIFFERS (-2.616),DIFFERS
+Table 5,merged SMOTE Accuracy,99.36,98.5102,"differs -0.85, within run-to-run range",within run-to-run range
+Table 5,merged none Macro precision,78.01,54.9967,DIFFERS (-23.013),DIFFERS
+Table 5,merged SMOTE Macro precision,78.78,60.2055,DIFFERS (-18.575),DIFFERS
+Table 5,merged none Macro recall,78.15,57.8002,DIFFERS (-20.350),DIFFERS
+Table 5,merged SMOTE Macro recall,81.49,60.2803,DIFFERS (-21.210),DIFFERS
+Table 5,merged none Macro F1,77.31,53.6015,DIFFERS (-23.708),DIFFERS
+Table 5,merged SMOTE Macro F1,79.17,56.7019,DIFFERS (-22.468),DIFFERS
+Table 5,merged none Macro AUC-PR,72.47,47.1986,DIFFERS (-25.271),DIFFERS
+Table 5,merged SMOTE Macro AUC-PR,73.65,47.685,DIFFERS (-25.965),DIFFERS
+Table 5,merged none recall Normal,99.61,97.2604,DIFFERS (-2.350),DIFFERS
+Table 5,merged SMOTE recall Normal,99.78,99.3064,"differs -0.47, within run-to-run range",within run-to-run range
+Table 5,merged none recall DoS,95.98,56.1927,DIFFERS (-39.787),DIFFERS
+Table 5,merged SMOTE recall DoS,95.61,48.9393,DIFFERS (-46.671),DIFFERS
+Table 5,merged none recall Reconnaissance,96.5,71.319,DIFFERS (-25.181),DIFFERS
+Table 5,merged SMOTE recall Reconnaissance,97.09,63.5059,DIFFERS (-33.584),DIFFERS
+Table 5,merged none recall Backdoor,20.5,6.4288,DIFFERS (-14.071),DIFFERS
+Table 5,merged SMOTE recall Backdoor,33.48,29.3695,DIFFERS (-4.110),DIFFERS
+7.1,Normal share of the merged pool %,90.6,98.2676,DIFFERS (+7.668),DIFFERS
+7.1,Backdoor share of the merged pool %,0.09,0.1154,DIFFERS (+0.025),DIFFERS
+Table 6,transfer u2c accuracy,66.69,65.5235,DIFFERS (-1.166),DIFFERS
+Table 6,transfer u2c precision,26.76,22.3889,DIFFERS (-4.371),DIFFERS
+Table 6,transfer u2c recall,24.92,24.888,"differs -0.03, within run-to-run range",within run-to-run range
+Table 6,transfer u2c f1,24.9,22.3319,DIFFERS (-2.568),DIFFERS
+Table 6,transfer u2c recall_Normal,76.63,86.4986,DIFFERS (+9.869),DIFFERS
+Table 6,transfer u2c recall_DoS,20.43,4.72,DIFFERS (-15.710),DIFFERS
+Table 6,transfer u2c recall_Reconnaissance,2.63,0.0,DIFFERS (-2.630),DIFFERS
+Table 6,transfer u2c recall_Backdoor,0.0,8.3333,DIFFERS (+8.333),DIFFERS
+Table 6,transfer c2u accuracy,97.83,66.6462,DIFFERS (-31.184),DIFFERS
+Table 6,transfer c2u precision,26.62,24.7431,DIFFERS (-1.877),DIFFERS
+Table 6,transfer c2u recall,25.28,20.5601,DIFFERS (-4.720),DIFFERS
+Table 6,transfer c2u f1,25.48,20.3346,DIFFERS (-5.145),DIFFERS
+Table 6,transfer c2u recall_Normal,99.25,67.5622,DIFFERS (-31.688),DIFFERS
+Table 6,transfer c2u recall_DoS,1.86,7.1791,DIFFERS (+5.319),DIFFERS
+Table 6,transfer c2u recall_Reconnaissance,0.0,0.8436,"differs +0.84, within run-to-run range",within run-to-run range
+Table 6,transfer c2u recall_Backdoor,0.0,6.6552,DIFFERS (+6.655),DIFFERS
+7.2,Normal share of the UNSW-NB15 test corpus %,98.5,98.549,MATCH,MATCH
+8.1,UNSW vs CICIDS macro F1 gap,33.6,-15.2974,DIFFERS (-48.897),DIFFERS
+6.3,"accuracy minus macro F1, UNSW-NB15",21.0,21.3287,MATCH,MATCH
+6.3,"accuracy minus macro F1, CICIDS-2017",0.3,34.3726,DIFFERS (+34.073),DIFFERS
+8.1,Bot ratio to the largest class (x:1),41,266.6667,DIFFERS (266.7),DIFFERS
+8.1,Web Attack ratio to the largest class (x:1),37,380.9524,DIFFERS (381.0),DIFFERS
+8.1,Backdoors ratio to the largest class (x:1),40,39.9313,MATCH,MATCH
+8.1,Analysis ratio to the largest class (x:1),35,34.7404,MATCH,MATCH
+8.1,best Analysis/Backdoors recall without resampling,18.34,18.3418,MATCH,MATCH
+8.1,best Analysis/Backdoors recall with resampling,19.46,19.4631,MATCH,MATCH
+9,records with an exact copy,102737,102737.0,MATCH,MATCH
+9,their share %,39.87,39.8711,MATCH,MATCH
+9,de-duplicated pool,176183,176183.0,MATCH,MATCH
+9,de-duplicated XGBoost Accuracy,90.24,90.2414,MATCH,MATCH
+9,de-duplicated XGBoost Macro precision,68.18,68.1756,MATCH,MATCH
+9,de-duplicated XGBoost Macro F1,66.19,66.1945,MATCH,MATCH
+9,de-duplicated XGBoost Macro AUC-PR,73.11,73.1129,MATCH,MATCH
+4.3,validation records with a training copy %,40.83,40.83,MATCH,MATCH
+5.4,"distinct (vector, label) pairs",176183,176183.0,MATCH,MATCH
+5.4,extra label variants on conflicted vectors,8844,8844.0,MATCH,MATCH
+Table 3b,stratified_5fold accuracy,88.38,88.3798,MATCH,MATCH
+Table 3b,stratified_5fold macro F1,67.05,67.0511,MATCH,MATCH
+Table 3b,stratified_5fold macro AUC-PR,70.95,70.951,MATCH,MATCH
+Table 3b,grouped accuracy,88.71,88.7142,MATCH,MATCH
+Table 3b,grouped macro F1,66.71,66.7101,MATCH,MATCH
+Table 3b,grouped macro AUC-PR,71.79,71.7881,MATCH,MATCH
+Table 3b,dedup accuracy,90.24,90.2414,MATCH,MATCH
+Table 3b,dedup macro F1,66.19,66.1945,MATCH,MATCH
+Table 3b,dedup macro AUC-PR,73.11,73.1129,MATCH,MATCH
+Table 3b,single_random accuracy,88.39,88.3924,MATCH,MATCH
+Table 3b,single_random macro F1,67.96,67.9588,MATCH,MATCH
+Table 3b,single_random macro AUC-PR,72.79,72.793,MATCH,MATCH
+Table 3b,single_time accuracy,87.91,87.9092,MATCH,MATCH
+Table 3b,single_time macro F1,65.96,65.9563,MATCH,MATCH
+Table 3b,single_time macro AUC-PR,70.91,70.9065,MATCH,MATCH
+Table 3b,day_jan2feb accuracy,82.49,82.4911,MATCH,MATCH
+Table 3b,day_jan2feb macro F1,57.54,57.542,MATCH,MATCH
+Table 3b,day_jan2feb macro AUC-PR,65.13,65.127,MATCH,MATCH
+Table 3b,day_feb2jan accuracy,93.77,93.7673,MATCH,MATCH
+Table 3b,day_feb2jan macro F1,62.94,62.9409,MATCH,MATCH
+Table 3b,day_feb2jan macro AUC-PR,69.68,69.6791,MATCH,MATCH
+5.5,grouped minus stratified macro F1,-0.34,-0.341,MATCH,MATCH
+5.5,time-ordered minus random macro F1,-2.0,-2.0025,MATCH,MATCH
+5.5,largest per-class spread across protocols,41.33,41.34,MATCH,MATCH
+5.2,ten folds: comparisons significant on both tests,12,12.0,MATCH,MATCH
+5.2,ten folds: significant on the t-test only,0,0.0,MATCH,MATCH
+5.2,ten folds: significant on the signed-rank test only,0,0.0,MATCH,MATCH
+5.2,ten folds: RF SMOTE macro F1 change,1.24,1.238,MATCH,MATCH
+5.2,ten folds: RF SMOTE macro F1 signed-rank p,0.0039,0.0039,MATCH,MATCH
+5.2,ten folds: LGB SMOTE macro F1 change,8.55,8.547,MATCH,MATCH
+5.2,ten folds: LGB SMOTE macro F1 signed-rank p,0.002,0.002,MATCH,MATCH
+5.2,ten folds: XGB SMOTE macro F1 change,0.04,0.043,MATCH,MATCH
+5.2,ten folds: XGB SMOTE macro F1 signed-rank p,1.0,1.0,MATCH,MATCH
+5.6,top 5 features' share of |SHAP| %,53.3,53.35,MATCH,MATCH
+5.6,top 10 features' share of |SHAP| %,68.3,68.33,MATCH,MATCH
+5.6,"Spearman(|SHAP|, split gain)",0.509,0.5089,MATCH,MATCH
+5.6,"GA subset against SHAP top 18, Jaccard",0.33,0.3333,MATCH,MATCH
+5.6,macro F1 gained from 35% to 100% of the fold,1.22,1.2152,MATCH,MATCH
+5.6,DoS recall on 2% of the training fold,30.8,30.7951,MATCH,MATCH
+5.6,DoS recall on the whole training fold,15.5,15.5046,MATCH,MATCH
+5.6,Analysis: top SHAP feature is a port number,1,1.0,MATCH,MATCH
+5.6,Backdoors: top SHAP feature is a port number,1,1.0,MATCH,MATCH
+new,cic cv withdup none f1,,54.1289,not in paper,not in paper
+new,cic dedup f1 gap,,-0.8562,not in paper,not in paper
+new,cic shap top5 share pct,,66.88,not in paper,not in paper
+new,cic lc f1 2pct,,35.9375,not in paper,not in paper
+new,merged records with a copy,,679871.0,not in paper,not in paper
+new,merged vectors in both corpora,,0.0,not in paper,not in paper
+new,cic positional possible,,0.0,not in paper,not in paper
+5.2,"LightGBM: SMOTE and ADASYN improve all five metrics, every p <= 0.004",claim,true,MATCH,MATCH
+5.2,Random Forest: macro recall p <= 0.003 and macro precision p < 0.001 for both methods,claim,true,MATCH,MATCH
+5.2,XGBoost: macro recall does not move (p >= 0.57) and precision falls (p < 0.001),claim,true,MATCH,MATCH
+5.2,Analysis and Backdoors move by at most 2.0 points under any model and method,claim,true,MATCH,MATCH
+5.2,TabNet's macro AUC-PR is below every tree configuration except LightGBM without resampling,claim,true,MATCH,MATCH
+5.3,"Analysis, Backdoors and DoS are most often predicted as Exploits (XGBoost, none)",claim,true,MATCH,MATCH
+5.4,dropping Exploits and DoS: Analysis 22.9-24.3% and Backdoors 11.6-12.6% across the three ensembles,claim,true,MATCH,MATCH
+5.4,GA subset: Analysis and Backdoors changes not significant (p >= 0.26),claim,true,MATCH,MATCH
+8.1,Bot and Web Attack exceed 99% recall in the CV pool and in the balanced split,claim,false,DIFFERS,DIFFERS
+5.5,separating shared feature vectors moves macro F1 by less than one point,claim,true,MATCH,MATCH
+5.5,time ordering costs more macro F1 than separating the copies does,claim,true,MATCH,MATCH
+5.5,the three largest classes move least across the size-comparable protocols,claim,true,MATCH,MATCH
+5.6,the learning curve is flat over the last two thirds of the training fold (< 2 points),claim,true,MATCH,MATCH
+5.6,DoS recall falls as the training fold grows,claim,true,MATCH,MATCH
+5.6,the top SHAP feature for Analysis and for Backdoors is a port number,claim,true,MATCH,MATCH
+5.2,ten folds: no comparison is significant on one test only,claim,true,MATCH,MATCH

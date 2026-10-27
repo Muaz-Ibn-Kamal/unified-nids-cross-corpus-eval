@@ -1,0 +1,11 @@
+attack_cat,feb,jan,total
+Analysis,2151,526,2677
+Backdoors,1795,534,2329
+DoS,15186,1167,16353
+Exploits,39116,5409,44525
+Fuzzers,19195,5051,24246
+Generic,56858,2013,58871
+Normal,48464,44536,93000
+Reconnaissance,12228,1759,13987
+Shellcode,1288,223,1511
+Worms,150,24,174

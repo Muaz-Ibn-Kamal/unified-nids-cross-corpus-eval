@@ -1,0 +1,14 @@
+# Versions used for the paper's reference run (Python 3.12+; xgboost 3.4.1 needs >= 3.12)
+numpy>=2.1
+pandas>=2.2
+scipy>=1.14
+scikit-learn==1.6.1
+xgboost==3.4.1
+lightgbm==4.6.0
+imbalanced-learn==0.14.2
+pytorch-tabnet==4.1.0
+torch>=2.3
+deap>=1.4
+shap>=0.46
+matplotlib>=3.9
+jupyter

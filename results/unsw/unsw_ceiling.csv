@@ -1,0 +1,11 @@
+Class,Support,Ceiling_recall,Unrecoverable,Lost_to
+Backdoors,2329,15.67,1964,Exploits
+Analysis,2677,23.23,2055,Exploits
+DoS,16353,57.93,6879,Exploits
+Reconnaissance,13987,84.14,2218,Exploits
+Exploits,44525,88.25,5231,DoS
+Fuzzers,24246,88.57,2771,Exploits
+Worms,174,91.38,15,Exploits
+Generic,58871,99.02,574,Exploits
+Normal,93000,100.0,0,-
+Shellcode,1511,100.0,0,-

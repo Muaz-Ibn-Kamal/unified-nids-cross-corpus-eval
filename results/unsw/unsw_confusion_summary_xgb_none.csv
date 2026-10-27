@@ -1,0 +1,11 @@
+Class,Support,Correct,Recall_pct,Precision_pct,Most_errors_go_to,Errors_to_it
+Analysis,2677,451,16.85,70.47,Exploits,1754
+Backdoors,2329,249,10.69,91.54,Exploits,1622
+DoS,16353,2927,17.9,47.14,Exploits,12999
+Exploits,44525,40517,91.0,64.25,DoS,2215
+Fuzzers,24246,21651,89.3,89.31,Exploits,2293
+Generic,58871,57875,98.31,99.78,Exploits,829
+Normal,93000,91718,98.62,99.88,Fuzzers,1092
+Reconnaissance,13987,10888,77.84,92.62,Exploits,2757
+Shellcode,1511,1354,89.61,89.2,Exploits,131
+Worms,174,101,58.05,66.89,Exploits,69

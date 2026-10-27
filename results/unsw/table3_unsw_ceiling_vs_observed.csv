@@ -1,0 +1,11 @@
+,"Observed (XGBoost, none)",Ceiling,Headroom
+Exploits,91.0,88.25,-2.75
+Fuzzers,89.3,88.57,-0.73
+Generic,98.31,99.02,0.71
+Normal,98.62,100.0,1.38
+Backdoors,10.69,15.67,4.98
+Reconnaissance,77.84,84.14,6.3
+Analysis,16.85,23.23,6.38
+Shellcode,89.61,100.0,10.39
+Worms,58.05,91.38,33.33
+DoS,17.9,57.93,40.03

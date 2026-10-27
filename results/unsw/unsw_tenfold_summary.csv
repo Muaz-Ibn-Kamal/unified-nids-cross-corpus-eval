@@ -1,0 +1,9 @@
+,,accuracy,accuracy,precision_macro,precision_macro,recall_macro,recall_macro,f1_macro,f1_macro,auc_pr_macro,auc_pr_macro
+,,mean,std,mean,std,mean,std,mean,std,mean,std
+model,resampling,,,,,,,,,,
+LGB,none,84.22,2.42,60.09,4.33,58.4,2.71,57.65,2.99,50.95,6.17
+LGB,smote,88.55,0.13,76.45,2.27,65.58,1.15,66.2,1.32,71.01,1.87
+RF,none,87.47,0.16,79.23,1.29,62.26,1.15,65.06,1.24,69.14,1.47
+RF,smote,87.43,0.15,72.0,1.07,65.44,1.42,66.29,0.89,67.87,1.25
+XGB,none,88.41,0.15,80.27,1.72,64.09,0.97,66.27,1.13,71.09,1.5
+XGB,smote,88.35,0.15,73.75,2.24,65.12,1.81,66.31,1.51,70.95,1.27

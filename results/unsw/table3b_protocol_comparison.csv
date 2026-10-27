@@ -1,0 +1,22 @@
+Protocol,Model,Folds,Train,Accuracy,Macro precision,Macro recall,Macro F1,Macro AUC-PR
+Stratified 5-fold (used in the paper),Random Forest,5,206138,87.53 ± 0.12,77.15 ± 2.26,62.37 ± 1.17,65.05 ± 1.45,68.90 ± 1.36
+Stratified 5-fold (used in the paper),XGBoost,5,206138,88.38 ± 0.12,81.15 ± 0.94,64.82 ± 1.50,67.05 ± 1.24,70.95 ± 0.81
+Stratified 5-fold (used in the paper),LightGBM,5,206138,85.81 ± 1.01,63.16 ± 2.38,58.75 ± 0.86,58.48 ± 0.43,54.45 ± 2.09
+Grouped 5-fold (no shared feature vector),Random Forest,5,206138,88.62 ± 0.57,82.04 ± 0.89,62.89 ± 1.10,65.95 ± 0.93,72.69 ± 0.85
+Grouped 5-fold (no shared feature vector),XGBoost,5,206138,88.71 ± 0.50,81.48 ± 0.58,64.44 ± 1.46,66.71 ± 1.08,71.79 ± 0.27
+Grouped 5-fold (no shared feature vector),LightGBM,5,206138,86.37 ± 0.60,61.39 ± 1.10,59.45 ± 1.28,58.67 ± 1.19,54.68 ± 2.81
+"De-duplicated pool, 5-fold",Random Forest,5,140946,89.91 ± 0.11,66.68 ± 1.49,62.21 ± 1.20,63.20 ± 1.06,68.78 ± 1.26
+"De-duplicated pool, 5-fold",XGBoost,5,140946,90.24 ± 0.10,68.18 ± 1.51,65.37 ± 0.51,66.19 ± 0.71,73.11 ± 1.39
+"De-duplicated pool, 5-fold",LightGBM,5,140946,88.48 ± 2.07,61.89 ± 1.06,62.54 ± 1.20,61.01 ± 1.35,59.40 ± 3.01
+Single random 80/20,Random Forest,1,206138,87.58,80.92,61.87,65.23,70.08
+Single random 80/20,XGBoost,1,206138,88.39,82.30,65.43,67.96,72.79
+Single random 80/20,LightGBM,1,206138,86.78,65.83,59.03,59.86,56.17
+Single time-ordered 80/20,Random Forest,1,206138,87.75,80.34,61.33,63.48,71.42
+Single time-ordered 80/20,XGBoost,1,206138,87.91,81.38,63.81,65.96,70.91
+Single time-ordered 80/20,LightGBM,1,206138,86.26,62.80,59.02,58.23,54.71
+"Train 22-23 Jan, test 18 Feb",Random Forest,1,61242,82.97,78.11,55.57,55.97,64.83
+"Train 22-23 Jan, test 18 Feb",XGBoost,1,61242,82.49,73.31,57.02,57.54,65.13
+"Train 22-23 Jan, test 18 Feb",LightGBM,1,61242,74.59,47.03,49.23,47.11,43.07
+"Train 18 Feb, test 22-23 Jan",Random Forest,1,196431,93.67,73.14,58.91,60.36,70.60
+"Train 18 Feb, test 22-23 Jan",XGBoost,1,196431,93.77,68.22,64.73,62.94,69.68
+"Train 18 Feb, test 22-23 Jan",LightGBM,1,196431,92.37,55.79,56.45,55.05,50.69
